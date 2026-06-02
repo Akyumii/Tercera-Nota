@@ -249,7 +249,7 @@ new Chart(document.getElementById("otro"), {
                     
                     subtitle: {
                         display: true,
-                        text: 'El tamaño de cada burbuja es en función al % de Ponderación del Ranking Solicitado',
+                        text: 'El tamaño de cada burbuja es en función al % de Ponderación del Ranking Solicitado desde 0% en adelante',
                         color: '#555',
                         font: { size: 13, style: 'italic' },
                         padding: { bottom: 15 }
