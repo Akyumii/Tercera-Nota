@@ -1,3 +1,9 @@
+function obtenerRadioVisual(ponderacion) {
+    const minR = 4;
+    const maxR = 22;
+    return minR + Math.sqrt(ponderacion / 100) * (maxR - minR);
+}
+ 
 new Chart(document.getElementById("dispersion"), {
     type: "scatter",
     data: {
